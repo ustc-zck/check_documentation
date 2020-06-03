@@ -47,10 +47,14 @@ python版本 python3.5以上
 **查看日志**
 ----------------------
 如果运行异常或结果不符合预期，进入容器查看日志
+
 首先查看容器id
-    docker ps -a | grep ubuntu14.04_nvi418.87:v01
+
+    docker ps -a | grep ubuntu14.04_nvi418.87:v01 或者 docker ps -a | grep centos7.5_nvi418.87:v01
+
 然后查看容器日志
-    docker logs -f 80e47ab9ecbd 
+
+    docker logs -f CONTAINER_ID 
 
     
 
