@@ -1,0 +1,20 @@
+#文件路径
+FILE_PATH = "/root/CHECK/AIGES-v2.4.3.tar.gz"
+
+#主程序工作目录
+WORKDIR = "/root/CHECK/AIGES-v2.4.3/output"
+
+#资源目录
+RESOURCE_DIRs = ["/data1"]
+
+#镜像版本 ubuntu14.04_nvi418.87或者centos7.5_nvi418.87
+IMAGE_VERSION = "ubuntu14.04_nvi418.87"
+
+#环境变量 ENVs = ['key=value', ..., 'key=value']
+ENVs = ["LD_LIBRARY_PATH=/root/CHECK/AIGES-v2.4.3/output"]
+
+#请求内存大小16，32, 64, 128
+MEMORY = 64
+
+#请求显存大小 2，4，8，12
+V_MEMORY = 4
