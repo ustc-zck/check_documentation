@@ -56,6 +56,9 @@ python版本 python3.5以上
 
     docker logs -f CONTAINER_ID 
 
+终止容器
+    docker stop CONTAINER_ID
+
     
 
 
