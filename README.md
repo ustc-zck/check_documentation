@@ -35,6 +35,7 @@ python版本 python3.5以上
     pip3 install -r requirements.txt
 
 监控使用的内存，如果使用的显存大于申请的显存大小，终端会显示 "显存消耗大于申请量"
+
     python3 memeory_monitor.py
 
 再开一个终端， 运行程序
