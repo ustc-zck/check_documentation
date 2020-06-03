@@ -6,4 +6,5 @@ ubuntu16.04及以上， centos7及以上，python3.5
 
 **运行步骤**
 
-'''python3 main.py''' 
+'''python
+    python3 main.py''' 
