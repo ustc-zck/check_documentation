@@ -14,7 +14,7 @@ python3.5以上
 
 安装必要的库
 
-\'pip3 install -r requirements.txt'
+    pip3 install -r requirements.txt
 
 安装docker, nvidia-container-toolkit
 
