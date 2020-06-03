@@ -21,11 +21,11 @@ python版本 python3.5以上
     
     资源目录，存在多个资源目录的话，以数组成员形式加入， RESOURCE_DIRs = ["/data1"] 
     
-    线上环境的镜像版本，可选择的版本有ubuntu14.04_nvi418.87和centos7.5_nvi418.87 IMAGE_VERSION = "ubuntu14.04_nvi418.87" 
+    线上环境的镜像版本，可选择的版本有ubuntu14.04_nvi418.87和centos7.5_nvi418.87， IMAGE_VERSION = "ubuntu14.04_nvi418.87" 
     
-    环境变量，多个环境变量以数组成员的形式加入 ENVs = ["LD_LIBRARY_PATH=/root/CHECK/AIGES-v2.4.3/output"] 
+    环境变量，多个环境变量以数组成员的形式加入，ENVs = ["LD_LIBRARY_PATH=/root/CHECK/AIGES-v2.4.3/output"] 
     
-    申请的显存大小，单位是G MEMORY = 4 
+    申请的显存大小，单位是G， MEMORY = 4 
 
 **运行步骤**
 ----------------------
