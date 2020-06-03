@@ -13,9 +13,9 @@ python3.5以上
 **运行步骤**
 
 安装必要的库
-
     pip3 install -r requirements.txt
 
 安装docker, nvidia-container-toolkit
-
-\'python3 main.py'
+    python3 main.py
+监控使用的内存，再开一个窗口, 
+    python3 memeory_monitor.py
