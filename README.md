@@ -4,22 +4,31 @@
 **运行环境**
 -------------------
 
-支持的操作系统 
+支持的操作系统  ubuntu16.04, ubuntu18.04, ubuntu20.04, centos7.X, centos8.X
 
-ubuntu16.04, ubuntu18.04, ubuntu20.04, centos7.X, centos8.X
-
-python版本
-
-python3.5以上
+python版本 python3.5以上
 
 **配置文件**
 ----------
 
-配置文件需要提供压缩包文件路径，主程序工作目录，资源目录，镜像版本，环境变量和申请的显存存量
-    FILE_PATH 
+文件进行打包，压缩成tar文件，例如AIGES-v2.4.3.tar.gz
+
+配置文件需要提供压缩包文件路径，主程序工作目录，资源目录，镜像版本，环境变量和申请的显存存量，以AIGES-v2.4.3为例
+    
+    FILE_PATH="/root/CHECK/AIGES-v2.4.3.tar.gz" 压缩包AIGES-v2.4.3.tar.gz路径
+    
+    WORKDIR = "/root/CHECK/AIGES-v2.4.3/output" 主程序AIService在此目录下
+    
+    RESOURCE_DIRs = ["/data1"] 资源目录，存在多个资源目录的话，以数组成员形式加入
+    
+    IMAGE_VERSION = "ubuntu14.04_nvi418.87" 线上环境的镜像版本，可选择的版本有ubuntu14.04_nvi418.87和centos7.5_nvi418.87
+    
+    ENVs = ["LD_LIBRARY_PATH=/root/CHECK/AIGES-v2.4.3/output"] 环境变量，多个环境变量以数组成员的形式加入
+    
+    MEMORY = 4 申请的显存大小，单位是G
 
 **运行步骤**
-----------------------
+----------------------e
 
 安装必要的库
 
