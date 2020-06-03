@@ -2,7 +2,13 @@
 
 **运行环境**
 
-ubuntu16.04及以上， centos7及以上，python3.5
+支持的操作系统 
+
+ubuntu16.04, ubuntu18.04, ubuntu20.04, centos7.X, centos8.X
+
+python版本
+
+python3.5以上
 
 **运行步骤**
 
