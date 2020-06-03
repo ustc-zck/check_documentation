@@ -25,7 +25,9 @@ python版本 python3.5以上
     
     环境变量，多个环境变量以数组成员的形式加入，ENVs = ["LD_LIBRARY_PATH=/root/CHECK/AIGES-v2.4.3/output"] 
     
-    申请的显存大小，单位是G， MEMORY = 4 
+    申请的内存大小，单位是G， MEMORY = 64
+    
+    申请的显存大小，单位是G， V_MEMORY = 4 
 
 **运行步骤**
 ----------------------
@@ -34,7 +36,7 @@ python版本 python3.5以上
 
     pip3 install -r requirements.txt
 
-监控使用的内存，如果使用的显存大于申请的显存大小，终端会显示 "显存消耗大于申请量"
+监控使用的内存，如果申请的内存大小超过申请的内存量，则会提示**“内存消耗大于申请量”**如果使用的显存大于申请的显存大小，终端会提示 **"显存消耗大于申请量"**
 
     python3 memeory_monitor.py
 
