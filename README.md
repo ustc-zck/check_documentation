@@ -13,7 +13,7 @@ python版本 python3.5以上
 
 程序文件进行打包，压缩成tar文件，例如AIGES-v2.4.3.tar.gz
 
-配置文件config.toml需要提供压缩包文件路径，主程序工作目录，资源目录，镜像版本，环境变量和申请的显存存量，以AIGES-v2.4.3为例
+配置文件config.toml需要提供压缩包文件路径，主程序工作目录，资源目录，镜像版本，环境变量，内存申请量和显存申请量，以AIGES-v2.4.3为例，主程序在AIGES-v2.4.3文件夹，加载资源在/data1目录
     
     压缩包AIGES-v2.4.3.tar.gz路径， FILE_PATH="/root/CHECK/AIGES-v2.4.3.tar.gz" 
     
