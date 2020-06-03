@@ -13,9 +13,13 @@ python3.5以上
 **运行步骤**
 
 安装必要的库
+
     pip3 install -r requirements.txt
 
 安装docker, nvidia-container-toolkit
+
     python3 main.py
-监控使用的内存，再开一个窗口, 
+    
+监控使用的内存，再开一个窗口, 如果使用的显存大于申请的显存大小，终端会显示 "显存占用大于申请量"
+
     python3 memeory_monitor.py
