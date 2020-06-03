@@ -12,5 +12,9 @@ python3.5以上
 
 **运行步骤**
 
-'''python
-    python3 main.py''' 
+安装必要的库
+'pip3 install -r requirements.txt'
+
+安装docker, nvidia-container-toolkit
+
+'python3 main.py'
